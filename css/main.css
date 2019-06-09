@@ -1,0 +1,42 @@
+body  {
+    background: rgb(176, 235, 235);
+}
+.brand-statement {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px 10px;
+    background-color: white;
+    justify-content: space-between;
+}
+
+
+main {
+    margin: 20px;
+}
+.profile-pic img  {
+    border-radius: 60px;
+    width: 80%;
+    padding-left: 10px;
+    transform: rotate(35deg);
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.projects img {
+    width: 60%;
+}
+
+.projects div {
+    display: flex;
+    border: 1px solid black;
+    align-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
