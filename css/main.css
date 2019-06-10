@@ -1,13 +1,13 @@
 body  {
-    background: rgb(176, 235, 235);
+    background: rgba(176, 235, 235, .2);
 }
 .brand-statement {
     display: flex;
     align-items: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 20px;
     padding: 20px 10px;
-    background-color: white;
+    /* background-color: white; */
     justify-content: space-between;
 }
 
@@ -16,7 +16,7 @@ main {
     margin: 20px;
 }
 .profile-pic img  {
-    border-radius: 60px;
+    border-radius: 100%;
     width: 80%;
     padding-left: 10px;
     transform: rotate(35deg);
@@ -39,4 +39,19 @@ footer {
     flex-direction: column;
     margin-bottom: 20px;
     border-radius: 10px;
+}
+
+#linkedin {
+    width: 8%;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.footer * {
+    margin: 10px;
 }
