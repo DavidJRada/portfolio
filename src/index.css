@@ -1,0 +1,19 @@
+.projects img {
+  width: 80%;
+}
+
+.about-me {
+  display: flex;
+  width: 70%;
+  align-items: space-between;
+  margin: 10% auto;
+}
+
+#profile-pic {
+  width: 100%;
+ 
+}
+.profile-pic {
+ margin-right: 10px;
+}
+
