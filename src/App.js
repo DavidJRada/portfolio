@@ -7,6 +7,7 @@ import Home from './components/Home'
 import Footer from './components/Footer'
 import 'materialize-css'; // It installs the JS asset only
 import 'materialize-css/dist/css/materialize.min.css';
+import Contact from './components/Contact'
 
 
 
@@ -24,7 +25,7 @@ function App() {
           </ul>
         </div>
       </nav>
-
+      <Contact />
       <Route exact path='/' component={Home} />
       <Route path='/projects' component={Projects} />
       <Route path='/resume' component={Resume} />

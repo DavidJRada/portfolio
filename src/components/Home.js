@@ -13,9 +13,8 @@ function Home() {
                     I enjoy working with code and people, and excel in team environments. Whether traveling to
                     newplaces or tackling new programming skills, I adapt quickly and love to learn.
                 <br /><br />
-                    Tech: React, Javascript ES6, React, Mongoose, MongoDB, PostgresSQL, Git, API Integration,
-                    Ruby,
-                    Rails
+                Tech: React, Postgresql, Ruby, Rails, Javascript ES6, HTML5, MongoDB, Mongoose, Git, JQuery, Materialize, CSS3, Trello
+
             </p>
             </div>
         </main>

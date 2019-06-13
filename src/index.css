@@ -7,13 +7,58 @@
   width: 70%;
   align-items: space-between;
   margin: 10% auto;
+  justify-content: baseline;
+}
+.about-me-content {
+  margin-top: 30px;
 }
 
 #profile-pic {
-  width: 100%;
+  width: 90%;
  
 }
 .profile-pic {
- margin-right: 10px;
+ margin-right: 20px;
+}
+
+#github {
+  width: 5%;
+}
+#linkedin {
+  width: 4%;
+}
+#email {
+  width: 5%;
+}
+
+.contact {
+  margin-top: 2000px;
+  width: 10%;
+}
+
+.contact * {
+  margin: 5px;
+}
+
+.card {
+  padding: 5px;
+}
+
+@media only screen and (max-width: 880px) {
+  #profile-pic {
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  #profile-pic {
+    margin-top: 70px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  #profile-pic {
+    margin-top: 120px;
+  }
 }
 
