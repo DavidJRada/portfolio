@@ -1,7 +1,9 @@
 .projects img {
   width: 80%;
 }
-
+.nav-wrapper ul {
+  margin-right: 10px;
+}
 .about-me {
   display: flex;
   width: 70%;
