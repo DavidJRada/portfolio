@@ -18,7 +18,7 @@ function App() {
     <Router>
       <nav>
         <div className='nav-wrapper white'>
-            <Link className='brand-logo center black-text' to='/'>David Rada</Link>
+            <Link className='brand-logo center black-text david-rada' to='/'>David Rada</Link>
           <ul className='nav-mobile right'>
             <li><Link to='/projects' className='black-text'>Projects</Link></li>
             <li><Link to='/Resume' className='black-text'>Resume</Link></li>

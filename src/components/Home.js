@@ -5,7 +5,7 @@ function Home() {
     return (
         <main className='about-me'>
             <div className='profile-pic'>
-                <img id='profile-pic' src={ProfilePic} alt='Profile Picture'>
+                <img id='profile-pic' src={ProfilePic} alt='Profile'>
                 </img>
             </div>
             <div className='about-me-content'>

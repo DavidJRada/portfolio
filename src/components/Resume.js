@@ -10,7 +10,8 @@ class Resume extends React.Component {
                     type='applications/pdf'
                     width='100%'
                     height='100vh'>
-                    <iframe
+                    <iframe 
+                        title='resume'
                         src={ResumePDF}
                         width='100%'
                         style={{ height: '100vh' }}
