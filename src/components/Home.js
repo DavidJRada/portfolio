@@ -9,11 +9,12 @@ function Home() {
                 </img>
             </div>
             <div className='about-me-content'>
+ 
                 <p>New York based software engineer with a background in social services and account management.
                     I enjoy working with code and people, and excel in team environments. Whether traveling to
                     newplaces or tackling new programming skills, I adapt quickly and love to learn.
                 <br /><br />
-                Tech: React, Postgresql, Ruby, Rails, Javascript ES6, HTML5, MongoDB, Mongoose, Git, JQuery, Materialize, CSS3, Heroku, Node.js, Trello 
+                    Tech: React, Postgresql, Ruby, Rails, Javascript ES6, HTML5, MongoDB, Mongoose, Git, JQuery, Materialize, CSS3, Heroku, Node.js, Trello
 
             </p>
             </div>
