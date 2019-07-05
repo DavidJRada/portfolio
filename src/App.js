@@ -17,11 +17,11 @@ function App() {
   return (
     <Router>
       <nav>
-        <div className='nav-wrapper white'>
-            <Link className='brand-logo center black-text david-rada' to='/'>David Rada</Link>
+        <div className='nav-wrapper black'>
+            <Link className='brand-logo center white-text david-rada' to='/'>David Rada</Link>
           <ul className='nav-mobile right'>
-            <li><Link to='/projects' className='black-text'>Projects</Link></li>
-            <li><Link to='/Resume' className='black-text'>Resume</Link></li>
+            <li><Link to='/projects' className='white-text'>Projects</Link></li>
+            <li><Link to='/Resume' className='white-text'>Resume</Link></li>
           </ul>
         </div>
       </nav>
