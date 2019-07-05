@@ -6,15 +6,17 @@ import Letsflix from './images/letsflix.png'
 function Projects() {
     return (
         <div className='projects container center-align'>
- 
+
 
             <div className='project card'>
                 <h2>Get Lucid</h2>
                 <a href='https://getlucid.herokuapp.com/' target='_blank' rel="noopener noreferrer"><img src={Getlucid} alt='Get Lucid'></img></a>
 
-               
-                <p>Get Lucid is a dream tracking app focused on getting the user to a lucid dream state. This site has
-                    encrypted Authorization using Bcrypt.</p>
+
+                <p>A dream tracker and lucid dreaming tool for users to create and track dreams to
+be edited or saved for later. The purpose of the site is to encourage mindful
+dreams and eventually control in dreams. Full user authorization with
+encryption using Bcrypt and Express Sessions</p>
                 <p>Tech: Mongo, Mongoose, Express, EJS, Materialize, Github and Node</p>
                 <a target='_blank' rel="noopener noreferrer" href='https://github.com/DavidJRada/getlucid'>
                     <p>GitHub</p>
@@ -23,8 +25,10 @@ function Projects() {
             <div className='project card'>
                 <h2>GitPub</h2>
                 <a href='https://gitpub-client.herokuapp.com/' target='_blank' rel="noopener noreferrer"><img
-                    src= {GitPub} alt='Git Pub' /></a>
-                <p>A pub site created with the punniest names of names</p>
+                    src={GitPub} alt='Git Pub' /></a>
+                <p>A fictional restaurant website for admin to add/edit menu items and public to
+access. Worked with a team of three and coordinated the group Github workflow
+and Heroku deployment using various build packs.</p>
                 <p>Tech: React, Mongo, Mongoose, Express, Postman Materialize, Github and Node</p>
                 <a target='_blank' rel="noopener noreferrer" href='https://github.com/DavidJRada/gitPub-client'>
                     <p>GitHub</p>
@@ -33,9 +37,10 @@ function Projects() {
             <div className='project card'>
                 <h2>Let's Flix</h2>
                 <a href='https://we-watch-client.herokuapp.com/' target='_blank' rel='noopener noreferrer'><img
-                    src= {Letsflix} alt='Lets Flix' /></a>
-                <p>Follow your favorite actors, directors, and friends, see what they are watching and recommend your
-                    favorites to them! A social site to share movie recommendations with friends.</p>
+                    src={Letsflix} alt='Lets Flix' /></a>
+                <p>Prototype of a social site to follow friends and share movie recommendations.
+Users can find movie information from an OMDB API call with info added to the
+post.</p>
                 <p>Tech: React, Postgresql Ruby, Rails, Postman Materialize, Github and Node</p>
                 <a target='_blank' rel="noopener noreferrer" href='https://github.com/DavidJRada/we-watch-client'>
                     <p>GitHub</p>
