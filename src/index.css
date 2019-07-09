@@ -20,12 +20,13 @@ body {
   margin-right: 10px;
 }
 .about-me {
+  text-align: center;
   font-family: 'Reem Kufi', sans-serif;
-  font-size: 20px;
+  font-size: 24px;
   display: flex;
   width: 70%;
   align-items: space-between;
-  margin: 10% auto;
+  margin: 5% auto;
   justify-content: baseline;
 }
 

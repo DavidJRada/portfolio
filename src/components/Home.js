@@ -13,8 +13,8 @@ function Home() {
                 <p>New York based software engineer with a background in social services and account management.
                     I enjoy working with code and people, and excel in team environments. Whether traveling to
                     new places or tackling new programming skills, I adapt quickly and love to learn.
-                <br /><br />
-                    Tech: React, Postgresql, Ruby, Rails, SQL, Javascript ES6, HTML5, MongoDB, Mongoose, Github, JQuery, Bootstrap,Materialize, CSS3, Angular.js Heroku, Node.js, Trello
+                <br /><br /><hr></hr><br />
+                    React, Postgresql, Ruby, Rails, SQL, Javascript ES6, HTML5, MongoDB, Mongoose, Github, JQuery, Bootstrap,Materialize, CSS3, Angular.js Heroku, Node.js, Trello
 
             </p>
             </div>
