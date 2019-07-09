@@ -4,8 +4,14 @@ body {
   background-color: #ffeddb;
 }
 
-nav {
+.brand-logo {
+  font-size: 35px !important;
+}
+.proj-res {
   font-family: 'Reem Kufi', sans-serif;
+  margin-left: 10px;
+  font-size: 25px !important;
+  margin-right: 10px;
 }
 .projects img {
   width: 80%;
@@ -67,23 +73,43 @@ nav {
 @media only screen and (max-width: 750px) {
   #profile-pic {
     margin-top: 70px;
+  }  
+  .david-rada {
+    margin-left: -125px;
   }
 }
 
 @media only screen and (max-width: 550px) {
+
   .about-me {
     flex-direction: column;
   }
-
+.proj-res {
+  margin-right: 2px;
+}
   .david-rada {
     margin-left: -100px !important;
   }
 }
 
+@media only screen and (max-width: 440px) {
+  .brand-logo {
+    font-size: 30px !important;
+  }
+  .proj-res {
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 20px !important;
+  }
+}
+
+
 @media only screen and (max-width: 380px) {
   .david-rada {
-    margin-left: -75px !important;
+    margin-left: -85px !important;
   } 
+  .brand-logo {
+    font-size: 25px !important;
+  }
    #profile-pic {
     width: 50%;
     margin-left: 29%;

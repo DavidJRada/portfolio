@@ -20,8 +20,8 @@ function App() {
         <div className='nav-wrapper black'>
             <Link className='brand-logo center white-text david-rada' to='/'>David Rada</Link>
           <ul className='nav-mobile right'>
-            <li><Link to='/projects' className='white-text'>Projects</Link></li>
-            <li><Link to='/Resume' className='white-text'>Resume</Link></li>
+            <li><Link to='/projects' className='white-text proj-res'>Projects</Link></li>
+            <li><Link to='/Resume' className='white-text proj-res'>Resume</Link></li>
           </ul>
         </div>
       </nav>
